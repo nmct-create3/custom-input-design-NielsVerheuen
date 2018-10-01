@@ -716,7 +716,7 @@ input::placeholder {
 }
 
 .c-custom-input-option__symbol {
-    /* opacity: 0; */
+    opacity: 0;
     display: block;
 }
 
@@ -735,12 +735,12 @@ input::placeholder {
 
 .c-custom-input-option-hidden:checked+.c-custom-input-option-label {
     /* Do magic stuff here, for example: */
-    background-color: red;
 }
 
 .c-custom-input-option-hidden:checked+.c-custom-input-option-label .c-custom-input-option__symbol {
     /* Do magic stuff here, for example: */
-    fill: blue;
+    opacity: 1;
+    transition: opacity 200ms cubic-bezier(0.215, 0.610, 0.355, 1.000);
 }
 
 /*------------------------------------*\
