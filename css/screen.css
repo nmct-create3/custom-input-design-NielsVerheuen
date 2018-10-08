@@ -890,12 +890,12 @@ input::placeholder {
     position: relative;
 }
 
-.c-custom-select__input {
+/* .c-custom-select__input {
     border: none;
     width: 100%;
     height: 24px;
     -webkit-appearance: none;
-}
+} */
 
 .c-custom-select__input:focus {
     outline: none;
